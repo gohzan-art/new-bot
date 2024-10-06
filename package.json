@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot-calendar-assistant",
+  "version": "1.0.0",
+  "description": "Discord bot with Google Calendar integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start-python": "python bot.py"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "googleapis": "^100.0.0",
+    "natural": "^5.1.13",
+    "chrono-node": "^2.3.8"
+  }
+}
